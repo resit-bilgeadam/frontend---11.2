@@ -1,7 +1,4 @@
-const btn = document.querySelector("#btn");
+const lodash = require("lodash");
 
-function handleClick() {
-  alert("Clicked Button!!");
-}
-
-btn.addEventListener("click", handleClick);
+const capitalHello = lodash.camelCase("hello world-lodash");
+console.log(capitalHello);
